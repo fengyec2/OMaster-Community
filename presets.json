@@ -1,51 +1,54 @@
-[
-  {"name": "DEBUG1",
-    "coverPath": "images/fsjp_01.webp",
-    "galleryImages": [
-      "images/fsjp_02.webp",
-      "images/fsjp_03.webp"
-    ],
-    "author": "@TEST",
-    "mode": "auto",
-    "iso": null,
-    "shutterSpeed": null,
-    "exposureCompensation": null,
-    "colorTemperature": null,
-    "colorHue": null,
-    "whiteBalance": null,
-    "colorTone": null,
-    "filter": "复古 100%",
-    "softLight": "无",
-    "tone": 0,
-    "saturation": 19,
-    "warmCool": -5,
-    "cyanMagenta": 0,
-    "sharpness": 15,
-    "vignette": "开"
-  },
-  {
-    "name": "DEBUG2",
-    "coverPath": "images/jpg_01.webp",
-    "galleryImages": [
-      "images/jpg_02.webp",
-      "images/jpg_03.webp"
-    ],
-    "author": "@TEST",
-    "mode": "auto",
-    "iso": null,
-    "shutterSpeed": null,
-    "exposureCompensation": null,
-    "colorTemperature": null,
-    "colorHue": null,
-    "whiteBalance": null,
-    "colorTone": null,
-    "filter": "复古 75%",
-    "softLight": "柔美",
-    "tone": -5,
-    "saturation": 20,
-    "warmCool": -3,
-    "cyanMagenta": 4,
-    "sharpness": 7,
-    "vignette": "开"
-  }
-]
+{
+  "presets": [
+    {
+      "name": "DEBUG1",
+      "coverPath": "images/fsjp_01.webp",
+      "galleryImages": [
+        "images/fsjp_02.webp",
+        "images/fsjp_03.webp"
+      ],
+      "author": "@TEST",
+      "mode": "auto",
+      "iso": null,
+      "shutterSpeed": null,
+      "exposureCompensation": null,
+      "colorTemperature": null,
+      "colorHue": null,
+      "whiteBalance": null,
+      "colorTone": null,
+      "filter": "复古 100%",
+      "softLight": "无",
+      "tone": 0,
+      "saturation": 19,
+      "warmCool": -5,
+      "cyanMagenta": 0,
+      "sharpness": 15,
+      "vignette": "开"
+    },
+    {
+      "name": "DEBUG2",
+      "coverPath": "images/jpg_01.webp",
+      "galleryImages": [
+        "images/jpg_02.webp",
+        "images/jpg_03.webp"
+      ],
+      "author": "@TEST",
+      "mode": "auto",
+      "iso": null,
+      "shutterSpeed": null,
+      "exposureCompensation": null,
+      "colorTemperature": null,
+      "colorHue": null,
+      "whiteBalance": null,
+      "colorTone": null,
+      "filter": "复古 75%",
+      "softLight": "柔美",
+      "tone": -5,
+      "saturation": 20,
+      "warmCool": -3,
+      "cyanMagenta": 4,
+      "sharpness": 7,
+      "vignette": "开"
+    }
+  ]
+}
