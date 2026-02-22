@@ -4,7 +4,6 @@
       "name": "Dynamic Test",
       "coverPath": "images/fsjp_01.webp",
       "author": "@Test",
-      "mode": "pro",
       "sections": [
         {
           "title": "Custom Section 1",
@@ -41,6 +40,9 @@
             }
           ]
         }
+      ],
+      "tags": [
+        "Genshin"
       ]
     }
   ]
