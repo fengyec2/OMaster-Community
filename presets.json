@@ -5,17 +5,6 @@
       "coverPath": "images/fsjp_01.webp",
       "author": "@Test",
       "mode": "pro",
-      "filter": "Test 100%",
-      "whiteBalance": null,
-      "colorTone": null,
-      "exposureCompensation": null,
-      "softLight": "无",
-      "tone": 0,
-      "saturation": 0,
-      "warmCool": 0,
-      "cyanMagenta": 0,
-      "sharpness": 0,
-      "vignette": "关",
       "sections": [
         {
           "title": "Custom Section 1",
