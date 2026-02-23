@@ -42,11 +42,31 @@ https://raw.github.com/fengyec2/OMaster-Community/main/presets.json
   如果你想贡献新的调色预设：
 
   1. Fork 此仓库
-  2. 在 `presets.json` 中添加预设数据
-  3. ~~*在 `app/src/main/assets/images/` 中添加样片*~~（这个之后再说罢）
-  4. 提交 Pull Request
+  2. 新建一个分支（例如 `preset` ）
+  3. 在新分支（例如 `preset` ）的 `presets.json` 中添加预设数据
+  4. 在主分支（就是 `main` 分支）修改 README
+  5. 提交 Pull Request，把你的新分支（例如 `preset` ）合并到 `fengyec2/OMaster-Community:main` 中
+  
+  > [!WARNING]
+  > 不要把你的 README 更新也合并到上游仓库了
+  >
+  > 请确保你的 PR 只包含 `presets.json` 的更新
    
   ### 预设数据格式
+
+|      外层键      |      描述      |      值      |
+| ------------- | ------------- | ------------- |
+| coverPath | App 首页封面图片 | 相对路径或 URL |
+| galleryImages | 单个预设下轮播图片 | 相对路径或 URL |
+| mode | 相机模式 | 只接受 auto 和 pro（即将废弃） |
+| isNew | 是否为新配置 | true 置顶，非必须键 |
+
+|      内层键      |      描述      |      值      |
+| ------------- | ------------- | ------------- |
+| title | 预设配置的组名称 | 支持 @string 解析 |
+| label | 组下单个预设配置的名称 | 支持 @string 解析 |
+| span | 单个预设配置卡片宽度 | 1: 半宽，2: 全宽 |
+
 
   ```json
   {
@@ -75,7 +95,6 @@ https://raw.github.com/fengyec2/OMaster-Community/main/presets.json
         "cyanMagenta": 0,
         "sharpness": 15,
         "vignette": "开",
-        "shootingTips": "【环境建议】日间户外或光线充足的室内\n【场景推荐】街拍、人像、风景、建筑\n【拍摄要点】适合追求经典胶片质感的场景，色彩浓郁复古，建议寻找有光影对比的场景增强层次感",
         "sections": [
           {
             "title": "@string/section_color_grading",
@@ -121,6 +140,16 @@ https://raw.github.com/fengyec2/OMaster-Community/main/presets.json
                 "span": 2
               }
             ]
+          },
+          {
+            "title": null,
+            "items": [
+              {
+                "label": "@string/shooting_tips",
+                "value": "【环境建议】日间户外或光线充足的室内\n【场景推荐】街拍、人像、风景、建筑\n【拍摄要点】适合追求经典胶片质感的场景，色彩浓郁复古，建议寻找有光影对比的场景增强层次感",
+                "span": 2
+              }
+            ]
           }
         ]
       }
@@ -141,9 +170,9 @@ https://raw.github.com/fengyec2/OMaster-Community/main/presets.json
   那么你可以 **完全自定义** 你的云端配置并应用于 OMaster！
 
   1. Fork 此仓库
-  2. 在 `presets.json` 中添加预设数据
-  3. ~~*在 `app/src/main/assets/images/` 中添加样片*~~（这个之后再说罢）
-  4. 提交 Pull Request
+  2. 在 `presets.json` 中修改预设数据
+  3. 在 `README.md` 中修改文档
+  4. 将你的订阅链接发送给别人即可
    
   ### 预设数据格式
 
