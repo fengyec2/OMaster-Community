@@ -48,10 +48,14 @@ https://raw.github.com/fengyec2/OMaster-Community/main/presets.json
 | coverPath | App 首页封面图片 | 相对路径或 URL |
 | galleryImages | 单个预设下轮播图片 | 相对路径或 URL |
 | isNew | 是否为新配置 | `true` 置顶，非必须键 |
+| sections | 预设配置的组 | 数组 |
+| tags | 预设配置的标签 | 数组 |
+| description | 预设配置的描述 | 字符串 |
 
 |  `sections` 内层键  |      描述      |      值      |
 | ------------- | ------------- | ------------- |
 | title | 预设配置的组名称 | 支持 `@string` 解析 |
+| items | 预设配置的组下的配置项 | 数组 |
 | label | 组下单个预设配置的名称 | 支持 `@string` 解析 |
 | span | 单个预设配置卡片宽度 | `1`: 半宽，`2`: 全宽 |
 
