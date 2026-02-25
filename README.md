@@ -11,17 +11,51 @@
 
 复制以下任意一个链接到 OMaster 即可使用本订阅规则
 
+### OPPO / 一加 / Realme 预设订阅
+
 - jsDelivr 源（中国大陆推荐）
 
 ```txt
-https://cdn.jsdelivr.net/gh/fengyec2/OMaster-Community@main/presets.json
+https://cdn.jsdelivr.net/gh/fengyec2/OMaster-Community@main/presets/v2/oppo.json
 ```
 
 - GitHub 源
 
 ```txt
-https://raw.github.com/fengyec2/OMaster-Community/main/presets.json
+https://raw.github.com/fengyec2/OMaster-Community/main/presets/v2/oppo.json
 ```
+
+<details>
+  <summary>其他品牌预设订阅（可能不会积极维护）</summary>
+
+### 荣耀
+
+- jsDelivr 源（中国大陆推荐）
+
+```txt
+https://cdn.jsdelivr.net/gh/fengyec2/OMaster-Community@main/presets/v2/honor.json
+```
+
+- GitHub 源
+
+```txt
+https://raw.github.com/fengyec2/OMaster-Community/main/presets/v2/honor.json
+```
+### vivo
+
+- jsDelivr 源（中国大陆推荐）
+
+```txt
+https://cdn.jsdelivr.net/gh/fengyec2/OMaster-Community@main/presets/v2/vivo.json
+```
+
+- GitHub 源
+
+```txt
+https://raw.github.com/fengyec2/OMaster-Community/main/presets/v2/vivo.json
+```
+
+</details>
 
 ## ❤️ 第三方订阅列表
 
@@ -34,42 +68,58 @@ https://raw.github.com/fengyec2/OMaster-Community/main/presets.json
 
 ## 🤝 贡献指南
 
+### JSON 格式
+
+|       顶层键       |      描述      |      值      |
+| ------------- | ------------- | ------------- |
+| version | 预设数据格式版本，如无必要**请勿修改** | `2` |
+| name | 预设的订阅显示名称 | 字符串 |
+| author | 预设的订阅显示作者 | 字符串 |
+| build | 预设的订阅显示版本，**值增加才会触发更新** | 整数 |
+
+|  `presets` 内层键  |      描述      |      值      |
+| ------------- | ------------- | ------------- |
+| coverPath | App 首页封面图片 | 相对路径或 URL |
+| galleryImages | 单个预设下轮播图片 | 相对路径或 URL |
+| isNew | 是否为新配置 | `true` 置顶，非必须键 |
+| sections | 预设配置的组 | 数组 |
+| tags | 预设配置的标签 | 数组 |
+| description | 预设配置的描述 | 字符串 |
+
+|  `sections` 内层键  |      描述      |      值      |
+| ------------- | ------------- | ------------- |
+| title | 预设配置的组名称 | 支持 `@string` 解析 |
+| items | 预设配置的组下的配置项 | 数组 |
+| label | 组下单个预设配置的名称 | 支持 `@string` 解析 |
+| span | 单个预设配置卡片宽度 | `1`: 半宽，`2`: 全宽 |
+
+### 提交新预设
+
 <details>
   <summary>提交 OPPO / 一加 / Realme 新预设</summary>
 
-  ### 提交 OPPO / 一加 / Realme 新预设
+  #### 提交 OPPO / 一加 / Realme 新预设
 
   如果你想贡献新的调色预设：
 
   1. Fork 此仓库
   2. 新建一个分支（例如 `preset` ）
-  3. 在新分支（例如 `preset` ）的 `presets.json` 中添加预设数据
+  3. 在新分支（例如 `preset` ）的 `presets/v2/oppo.json` 中添加预设数据
   4. 在主分支（就是 `main` 分支）修改 README
   5. 提交 Pull Request，把你的新分支（例如 `preset` ）合并到 `fengyec2/OMaster-Community:main` 中
   
-  > [!WARNING]
-  > 不要把你的 README 更新也合并到上游仓库了
-  >
-  > 请确保你的 PR 只包含 `presets.json` 的更新
+> [!WARNING]
+> 总之不要把你的 README 更新也合并到上游仓库了
+>
+> 请确保你的 PR 只包含 `oppo.json` 的更新
    
-  ### 预设数据格式
-
-|      外层键      |      描述      |      值      |
-| ------------- | ------------- | ------------- |
-| coverPath | App 首页封面图片 | 相对路径或 URL |
-| galleryImages | 单个预设下轮播图片 | 相对路径或 URL |
-| mode | 相机模式 | 只接受 auto 和 pro（即将废弃） |
-| isNew | 是否为新配置 | true 置顶，非必须键 |
-
-|      内层键      |      描述      |      值      |
-| ------------- | ------------- | ------------- |
-| title | 预设配置的组名称 | 支持 @string 解析 |
-| label | 组下单个预设配置的名称 | 支持 @string 解析 |
-| span | 单个预设配置卡片宽度 | 1: 半宽，2: 全宽 |
-
-
+  #### 预设数据格式
   ```json
   {
+    "version": 2,
+    "name": "OPPO / 一加 / Realme 预设",
+    "author": "@OMaster",
+    "build": 3,
     "presets": [
       {
         "name": "富士胶片",
@@ -79,22 +129,6 @@ https://raw.github.com/fengyec2/OMaster-Community/main/presets.json
           "images/fsjp_03.webp"
         ],
         "author": "@OPPO影像",
-        "mode": "auto",
-        "iso": null,
-        "shutterSpeed": null,
-        "exposureCompensation": null,
-        "colorTemperature": null,
-        "colorHue": null,
-        "whiteBalance": null,
-        "colorTone": null,
-        "filter": "复古 100%",
-        "softLight": "无",
-        "tone": 0,
-        "saturation": 19,
-        "warmCool": -5,
-        "cyanMagenta": 0,
-        "sharpness": 15,
-        "vignette": "开",
         "sections": [
           {
             "title": "@string/section_color_grading",
@@ -140,18 +174,15 @@ https://raw.github.com/fengyec2/OMaster-Community/main/presets.json
                 "span": 2
               }
             ]
-          },
-          {
-            "title": null,
-            "items": [
-              {
-                "label": "@string/shooting_tips",
-                "value": "【环境建议】日间户外或光线充足的室内\n【场景推荐】街拍、人像、风景、建筑\n【拍摄要点】适合追求经典胶片质感的场景，色彩浓郁复古，建议寻找有光影对比的场景增强层次感",
-                "span": 2
-              }
-            ]
           }
-        ]
+        ],
+        "tags": [
+          "Auto"
+        ],
+        "description": {
+          "title": "Shooting Tips",
+          "content": "【环境建议】室外的室内\n【场景推荐】街拍、人像、风景、建筑\n【拍摄要点】适合追求五彩斑斓的黑质感的场景，色彩单调又丰富，建议寻找有光影对比的场景增强层次感"
+        }
       }
     ]
   }
@@ -170,7 +201,7 @@ https://raw.github.com/fengyec2/OMaster-Community/main/presets.json
   那么你可以 **完全自定义** 你的云端配置并应用于 OMaster！
 
   1. Fork 此仓库
-  2. 在 `presets.json` 中修改预设数据
+  2. 在 `presets/v2/新品牌.json` 中修改预设数据
   3. 在 `README.md` 中修改文档
   4. 将你的订阅链接发送给别人即可
    
@@ -178,54 +209,71 @@ https://raw.github.com/fengyec2/OMaster-Community/main/presets.json
 
   ```json
   {
+    "version": 2,
+    "name": "新品牌 预设",
+    "author": "@作者",
+    "build": 1,
     "presets": [
       {
-        "name": "Dynamic Test",
-        "coverPath": "images/fsjp_01.webp",
-        "author": "@Test",
-        "mode": "pro",
-        "filter": "Test 100%",
-        "whiteBalance": null,
-        "colorTone": null,
-        "exposureCompensation": null,
-        "softLight": "无",
-        "tone": 0,
-        "saturation": 0,
-        "warmCool": 0,
-        "cyanMagenta": 0,
-        "sharpness": 0,
-        "vignette": "关",
+        "name": "新预设",
+        "coverPath": "相对路径或URL",
+        "galleryImages": [
+          "相对路径或URL",
+          "相对路径或URL"
+        ],
+        "author": "@作者",
         "sections": [
           {
-            "title": "Custom Section 1",
+            "title": "支持@string解析，这是一个大标题",
             "items": [
               {
-                "label": "Test Param 1",
-                "value": "Value 1",
+                "label": "直接填参数名称也可以（如滤镜）",
+                "value": "复古 100%",
                 "span": 2
               },
               {
-                "label": "Test Param 2",
-                "value": "Value 2",
+                "label": "柔光",
+                "value": "无",
+                "span": 1
+              },
+              {
+                "label": "@string/param_tone_curve",
+                "value": "0",
                 "span": 1
               }
             ]
           },
           {
-            "title": "Custom Section 2",
+            "title": "这是另一个一个大标题",
             "items": [
               {
-                "label": "Test Param 3",
-                "value": "Value 3",
+                "label": "直接填参数名称也可以（如滤镜）",
+                "value": "复古 100%",
+                "span": 2
+              },
+              {
+                "label": "柔光",
+                "value": "无",
+                "span": 1
+              },
+              {
+                "label": "@string/param_tone_curve",
+                "value": "0",
                 "span": 1
               }
             ]
           }
-        ]
+        ],
+        "tags": [
+          "Auto"
+          "可以有多个"
+        ],
+        "description": {
+          "title": "描述文本，也可以填拍摄建议",
+          "content": "【环境建议】室外的室内\n【场景推荐】街拍、人像、风景、建筑\n【拍摄要点】适合追求五彩斑斓的黑质感的场景，色彩单调又丰富，建议寻找有光影对比的场景增强层次感"
+        }
       }
     ]
   }
   ```
-
-
 </details>
