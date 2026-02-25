@@ -1,0 +1,320 @@
+{
+  "version": 2,
+  "name": "荣耀手机万能拍照公式",
+  "author": "@荣耀",
+  "build": 1,
+  "presets": [
+    {
+      "name": "拍人物",
+      "coverPath": "images/placeholder.webp",
+      "galleryImages": [
+        "images/placeholder.webp",
+        "images/placeholder.webp"
+      ],
+      "author": "@荣耀",
+      "sections": [
+        {
+          "title": "专业参数",
+          "items": [
+            { "label": "ISO感光度", "value": "500", "span": 1 },
+            { "label": "快门速度", "value": "1/20", "span": 1 },
+            { "label": "AF对焦模式", "value": "MF", "span": 1 },
+            { "label": "WB白平衡", "value": "4800", "span": 1 },
+            { "label": "M测光模式", "value": "中央重点测光", "span": 1 }
+          ]
+        }
+      ],
+      "tags": ["人像", "荣耀", "专业模式"],
+      "description": {
+        "title": "拍摄建议",
+        "content": "【环境建议】室内或弱光环境\n【场景推荐】人物特写\n【拍摄要点】手动对焦，中央重点测光，突出人物主体"
+      }
+    },
+    {
+      "name": "拍海边",
+      "coverPath": "images/placeholder.webp",
+      "galleryImages": [
+        "images/placeholder.webp",
+        "images/placeholder.webp"
+      ],
+      "author": "@荣耀",
+      "sections": [
+        {
+          "title": "专业参数",
+          "items": [
+            { "label": "ISO感光度", "value": "100", "span": 1 },
+            { "label": "快门速度", "value": "1/400", "span": 1 },
+            { "label": "AF对焦模式", "value": "AF-S", "span": 1 },
+            { "label": "WB白平衡", "value": "7000", "span": 1 },
+            { "label": "M测光模式", "value": "矩阵测光", "span": 1 }
+          ]
+        }
+      ],
+      "tags": ["海边", "风光", "荣耀", "专业模式"],
+      "description": {
+        "title": "拍摄建议",
+        "content": "【环境建议】晴天海边\n【场景推荐】沙滩、海浪\n【拍摄要点】低ISO保证画质，高快门凝固浪花，暖白平衡增强阳光感"
+      }
+    },
+    {
+      "name": "拍日落",
+      "coverPath": "images/placeholder.webp",
+      "galleryImages": [
+        "images/placeholder.webp",
+        "images/placeholder.webp"
+      ],
+      "author": "@荣耀",
+      "sections": [
+        {
+          "title": "专业参数",
+          "items": [
+            { "label": "ISO感光度", "value": "125", "span": 1 },
+            { "label": "快门速度", "value": "1/100", "span": 1 },
+            { "label": "AF对焦模式", "value": "AF-S", "span": 1 },
+            { "label": "WB白平衡", "value": "6300", "span": 1 },
+            { "label": "M测光模式", "value": "矩阵测光", "span": 1 }
+          ]
+        }
+      ],
+      "tags": ["日落", "风光", "荣耀", "专业模式"],
+      "description": {
+        "title": "拍摄建议",
+        "content": "【环境建议】黄昏时分\n【场景推荐】夕阳、晚霞\n【拍摄要点】使用2倍变焦，暖色调增强日落氛围"
+      }
+    },
+    {
+      "name": "拍演唱会",
+      "coverPath": "images/placeholder.webp",
+      "galleryImages": [
+        "images/placeholder.webp",
+        "images/placeholder.webp"
+      ],
+      "author": "@荣耀",
+      "sections": [
+        {
+          "title": "专业参数",
+          "items": [
+            { "label": "ISO感光度", "value": "1000", "span": 1 },
+            { "label": "快门速度", "value": "1/80", "span": 1 },
+            { "label": "AF对焦模式", "value": "AF-S", "span": 1 },
+            { "label": "WB白平衡", "value": "5000", "span": 1 },
+            { "label": "M测光模式", "value": "矩阵测光", "span": 1 }
+          ]
+        }
+      ],
+      "tags": ["演唱会", "夜景", "荣耀", "专业模式"],
+      "description": {
+        "title": "拍摄建议",
+        "content": "【环境建议】暗光舞台\n【场景推荐】演出、灯光\n【拍摄要点】高ISO保证亮度，适当快门捕捉动态"
+      }
+    },
+    {
+      "name": "拍风景",
+      "coverPath": "images/placeholder.webp",
+      "galleryImages": [
+        "images/placeholder.webp",
+        "images/placeholder.webp"
+      ],
+      "author": "@荣耀",
+      "sections": [
+        {
+          "title": "专业参数",
+          "items": [
+            { "label": "ISO感光度", "value": "100", "span": 1 },
+            { "label": "快门速度", "value": "1/60", "span": 1 },
+            { "label": "AF对焦模式", "value": "AF-S", "span": 1 },
+            { "label": "WB白平衡", "value": "4000", "span": 1 },
+            { "label": "M测光模式", "value": "矩阵测光", "span": 1 }
+          ]
+        }
+      ],
+      "tags": ["风景", "风光", "荣耀", "专业模式"],
+      "description": {
+        "title": "拍摄建议",
+        "content": "【环境建议】白天户外\n【场景推荐】自然风光、建筑\n【拍摄要点】低ISO保证画质，冷白平衡增强通透感"
+      }
+    },
+    {
+      "name": "丁达尔效应",
+      "coverPath": "images/placeholder.webp",
+      "galleryImages": [
+        "images/placeholder.webp",
+        "images/placeholder.webp"
+      ],
+      "author": "@荣耀",
+      "sections": [
+        {
+          "title": "专业参数",
+          "items": [
+            { "label": "ISO感光度", "value": "100", "span": 1 },
+            { "label": "快门速度", "value": "1/250", "span": 1 },
+            { "label": "AF对焦模式", "value": "AF-S", "span": 1 },
+            { "label": "WB白平衡", "value": "5000", "span": 1 },
+            { "label": "M测光模式", "value": "矩阵测光", "span": 1 }
+          ]
+        }
+      ],
+      "tags": ["丁达尔效应", "光影", "荣耀", "专业模式"],
+      "description": {
+        "title": "拍摄建议",
+        "content": "【环境建议】森林、有光束的场景\n【场景推荐】光束、雾气\n【拍摄要点】中等快门捕捉光束，保留自然色彩"
+      }
+    },
+    {
+      "name": "拍月亮",
+      "coverPath": "images/placeholder.webp",
+      "galleryImages": [
+        "images/placeholder.webp",
+        "images/placeholder.webp"
+      ],
+      "author": "@荣耀",
+      "sections": [
+        {
+          "title": "专业参数",
+          "items": [
+            { "label": "ISO感光度", "value": "100", "span": 1 },
+            { "label": "快门速度", "value": "1/200", "span": 1 },
+            { "label": "AF对焦模式", "value": "AF-S", "span": 1 },
+            { "label": "WB白平衡", "value": "4800", "span": 1 },
+            { "label": "M测光模式", "value": "点测光", "span": 1 }
+          ]
+        }
+      ],
+      "tags": ["月亮", "天文", "荣耀", "专业模式"],
+      "description": {
+        "title": "拍摄建议",
+        "content": "【环境建议】晴朗夜晚\n【场景推荐】月亮特写\n【拍摄要点】点测光对月亮测光，避免过曝"
+      }
+    },
+    {
+      "name": "拍雨天",
+      "coverPath": "images/placeholder.webp",
+      "galleryImages": [
+        "images/placeholder.webp",
+        "images/placeholder.webp"
+      ],
+      "author": "@荣耀",
+      "sections": [
+        {
+          "title": "专业参数",
+          "items": [
+            { "label": "ISO感光度", "value": "160", "span": 1 },
+            { "label": "快门速度", "value": "1/80", "span": 1 },
+            { "label": "AF对焦模式", "value": "AF-C", "span": 1 },
+            { "label": "WB白平衡", "value": "6000", "span": 1 },
+            { "label": "M测光模式", "value": "矩阵测光", "span": 1 }
+          ]
+        }
+      ],
+      "tags": ["雨天", "氛围", "荣耀", "专业模式"],
+      "description": {
+        "title": "拍摄建议",
+        "content": "【环境建议】下雨天\n【场景推荐】雨景、街景\n【拍摄要点】连续对焦捕捉雨滴，暖白平衡增强氛围"
+      }
+    },
+    {
+      "name": "拍人物夜景",
+      "coverPath": "images/placeholder.webp",
+      "galleryImages": [
+        "images/placeholder.webp",
+        "images/placeholder.webp"
+      ],
+      "author": "@荣耀",
+      "sections": [
+        {
+          "title": "专业参数",
+          "items": [
+            { "label": "ISO感光度", "value": "500", "span": 1 },
+            { "label": "快门速度", "value": "1/20", "span": 1 },
+            { "label": "AF对焦模式", "value": "MF", "span": 1 },
+            { "label": "WB白平衡", "value": "4800", "span": 1 },
+            { "label": "M测光模式", "value": "中央重点测光", "span": 1 }
+          ]
+        }
+      ],
+      "tags": ["人像", "夜景", "荣耀", "专业模式"],
+      "description": {
+        "title": "拍摄建议",
+        "content": "【环境建议】夜晚弱光\n【场景推荐】夜景人像\n【拍摄要点】手动对焦，中央重点测光，适当提高ISO"
+      }
+    },
+    {
+      "name": "富士胶片",
+      "coverPath": "images/placeholder.webp",
+      "galleryImages": [
+        "images/placeholder.webp",
+        "images/placeholder.webp"
+      ],
+      "author": "@荣耀",
+      "sections": [
+        {
+          "title": "专业参数",
+          "items": [
+            { "label": "ISO感光度", "value": "50", "span": 1 },
+            { "label": "快门速度", "value": "1/300", "span": 1 },
+            { "label": "AF对焦模式", "value": "AF-S", "span": 1 },
+            { "label": "WB白平衡", "value": "5000", "span": 1 },
+            { "label": "M测光模式", "value": "矩阵测光", "span": 1 }
+          ]
+        }
+      ],
+      "tags": ["胶片", "复古", "荣耀", "专业模式"],
+      "description": {
+        "title": "拍摄建议",
+        "content": "【环境建议】光线充足\n【场景推荐】街拍、人像\n【拍摄要点】低ISO，高快门，模拟胶片风格"
+      }
+    },
+    {
+      "name": "拍星空",
+      "coverPath": "images/placeholder.webp",
+      "galleryImages": [
+        "images/placeholder.webp",
+        "images/placeholder.webp"
+      ],
+      "author": "@荣耀",
+      "sections": [
+        {
+          "title": "专业参数",
+          "items": [
+            { "label": "ISO感光度", "value": "100", "span": 1 },
+            { "label": "快门速度", "value": "1/100", "span": 1 },
+            { "label": "AF对焦模式", "value": "AF-S", "span": 1 },
+            { "label": "WB白平衡", "value": "4200", "span": 1 },
+            { "label": "M测光模式", "value": "矩阵测光", "span": 1 }
+          ]
+        }
+      ],
+      "tags": ["星空", "天文", "荣耀", "专业模式"],
+      "description": {
+        "title": "拍摄建议",
+        "content": "【环境建议】晴朗无光污染的夜晚\n【场景推荐】星空、银河\n【拍摄要点】使用4倍变焦，低ISO，冷色调"
+      }
+    },
+    {
+      "name": "拍烟花",
+      "coverPath": "images/placeholder.webp",
+      "galleryImages": [
+        "images/placeholder.webp",
+        "images/placeholder.webp"
+      ],
+      "author": "@荣耀",
+      "sections": [
+        {
+          "title": "专业参数",
+          "items": [
+            { "label": "ISO感光度", "value": "100", "span": 1 },
+            { "label": "快门速度", "value": "1/320", "span": 1 },
+            { "label": "AF对焦模式", "value": "AF-C", "span": 1 },
+            { "label": "WB白平衡", "value": "6300", "span": 1 },
+            { "label": "M测光模式", "value": "矩阵测光", "span": 1 }
+          ]
+        }
+      ],
+      "tags": ["烟花", "夜景", "荣耀", "专业模式"],
+      "description": {
+        "title": "拍摄建议",
+        "content": "【环境建议】夜晚烟花表演\n【场景推荐】烟花绽放\n【拍摄要点】高速快门捕捉瞬间，连续对焦跟踪烟花"
+      }
+    }
+  ]
+}
