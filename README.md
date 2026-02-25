@@ -11,17 +11,51 @@
 
 复制以下任意一个链接到 OMaster 即可使用本订阅规则
 
+### OPPO / 一加 / Realme 预设订阅
+
 - jsDelivr 源（中国大陆推荐）
 
 ```txt
-https://cdn.jsdelivr.net/gh/fengyec2/OMaster-Community@main/presets.json
+https://cdn.jsdelivr.net/gh/fengyec2/OMaster-Community@main/presets/v2/oppo.json
 ```
 
 - GitHub 源
 
 ```txt
-https://raw.github.com/fengyec2/OMaster-Community/main/presets.json
+https://raw.github.com/fengyec2/OMaster-Community/main/presets/v2/oppo.json
 ```
+
+<details>
+  <summary>其他品牌预设订阅（可能不会积极维护）</summary>
+
+### 荣耀
+
+- jsDelivr 源（中国大陆推荐）
+
+```txt
+https://cdn.jsdelivr.net/gh/fengyec2/OMaster-Community@main/presets/v2/honor.json
+```
+
+- GitHub 源
+
+```txt
+https://raw.github.com/fengyec2/OMaster-Community/main/presets/v2/honor.json
+```
+### vivo
+
+- jsDelivr 源（中国大陆推荐）
+
+```txt
+https://cdn.jsdelivr.net/gh/fengyec2/OMaster-Community@main/presets/v2/vivo.json
+```
+
+- GitHub 源
+
+```txt
+https://raw.github.com/fengyec2/OMaster-Community/main/presets/v2/vivo.json
+```
+
+</details>
 
 ## ❤️ 第三方订阅列表
 
@@ -70,14 +104,14 @@ https://raw.github.com/fengyec2/OMaster-Community/main/presets.json
 
   1. Fork 此仓库
   2. 新建一个分支（例如 `preset` ）
-  3. 在新分支（例如 `preset` ）的 `presets.json` 中添加预设数据
+  3. 在新分支（例如 `preset` ）的 `presets/v2/oppo.json` 中添加预设数据
   4. 在主分支（就是 `main` 分支）修改 README
   5. 提交 Pull Request，把你的新分支（例如 `preset` ）合并到 `fengyec2/OMaster-Community:main` 中
   
-  > [!WARNING]
-  > 不要把你的 README 更新也合并到上游仓库了
-  >
-  > 请确保你的 PR 只包含 `presets.json` 的更新
+> [!WARNING]
+> 总之不要把你的 README 更新也合并到上游仓库了
+>
+> 请确保你的 PR 只包含 `oppo.json` 的更新
    
   #### 预设数据格式
   ```json
@@ -167,7 +201,7 @@ https://raw.github.com/fengyec2/OMaster-Community/main/presets.json
   那么你可以 **完全自定义** 你的云端配置并应用于 OMaster！
 
   1. Fork 此仓库
-  2. 在 `presets.json` 中修改预设数据
+  2. 在 `presets/v2/新品牌.json` 中修改预设数据
   3. 在 `README.md` 中修改文档
   4. 将你的订阅链接发送给别人即可
    
