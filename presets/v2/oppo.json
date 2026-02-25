@@ -1216,13 +1216,12 @@
       }
     },
     {
-      "name": "测试测试测试22222",
-      "coverPath": "https://youke.xn--y7xa690gmna.cn/s1/2026/02/22/699b15ea4b661.webp",
+      "name": "美味梦境",
+      "coverPath": "images/mwmj_01.webp",
       "galleryImages": [
-        "https://youke.xn--y7xa690gmna.cn/s1/2026/02/22/699b15ea4b661.webp"
+        "images/mwmj_02.webp"
       ],
-      "author": "@我不到啊",
-      "isNew": true,
+      "author": "@Aurora",
       "sections": [
         {
           "title": "@string/section_color_grading",
