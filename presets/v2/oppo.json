@@ -1,8 +1,8 @@
 {
-  "version": 3,
+  "version": 2,
   "name": "OPPO / 一加 大师预设",
   "author": "@OMaster",
-  "build": 4,
+  "build": 5,
   "presets": [
     {
       "name": "富士胶片",
