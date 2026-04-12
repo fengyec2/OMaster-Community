@@ -1,1 +1,174 @@
-
+{
+  "version": 1,
+  "name": "Realme GR预设",
+  "author": "@OMaster",
+  "build": 1,
+  "presets": [
+    {
+      "name": "理光正片",
+      "coverPath": "https://cdn.fky.ltd/zwzp_01.webp",
+      "galleryImages": [
+        "https://cdn.fky.ltd/zwzp_02.webp",
+        "https://cdn.fky.ltd/zwzp_03.webp"
+      ],
+      "author": "@尼克lin",
+      "sections": [
+        {
+          "title": "@string/section_color_grading",
+          "items": [
+            {
+              "label": "@string/param_filter",
+              "value": "正片",
+              "span": 2
+            },
+            {
+              "label": "@string/param_saturation",
+              "value": "+4",
+              "span": 1
+            },
+            {
+              "label": "@string/param_hue",
+              "value": "+1",
+              "span": 1
+            },
+            {
+              "label": "@string/param_tone_curve",
+              "value": "-1",
+              "span": 1
+            },
+            {
+              "label": "@string/param_contrast",
+              "value": "+3",
+              "span": 1
+            },
+            {
+              "label": "@string/param_contrast_highlight",
+              "value": "+2",
+              "span": 1
+            },
+            {
+              "label": "@string/param_contrast_shadow",
+              "value": "-2",
+              "span": 1
+            },
+            {
+              "label": "@string/param_sharpness",
+              "value": "-1",
+              "span": 1
+            },
+            {
+              "label": "@string/param_brightness",
+              "value": "-1",
+              "span": 1
+            },
+            {
+              "label": "@string/param_clarity",
+              "value": "-1",
+              "span": 1
+            },
+            {
+              "label": "@string/param_grain",
+              "value": "+3",
+              "span": 1
+            },
+            {
+              "label": "@string/param_grain_size",
+              "value": "+2",
+              "span": 2
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "Auto"
+      ],
+      "description": {
+        "title": "Shooting Tips",
+        "content": "【环境建议】日间户外，光线充足的场景\n【场景推荐】街拍、建筑、人文、日常记录\n【拍摄要点】模拟理光GR正片风格，色彩鲜艳对比度高，适合追求胶片质感的拍摄场景"
+      }
+    },
+    {
+      "name": "理光负片",
+      "coverPath": "https://cdn.fky.ltd/lgfp_01.webp",
+      "galleryImages": [
+        "https://cdn.fky.ltd/lgfp_02.webp",
+        "https://cdn.fky.ltd/lgfp_03.webp"
+      ],
+      "author": "@尼克lin",
+      "sections": [
+        {
+          "title": "@string/section_color_grading",
+          "items": [
+            {
+              "label": "@string/param_filter",
+              "value": "负片",
+              "span": 2
+            },
+            {
+              "label": "@string/param_saturation",
+              "value": "+3",
+              "span": 1
+            },
+            {
+              "label": "@string/param_hue",
+              "value": "+3",
+              "span": 1
+            },
+            {
+              "label": "@string/param_tone_curve",
+              "value": "+1",
+              "span": 1
+            },
+            {
+              "label": "@string/param_contrast",
+              "value": "+4",
+              "span": 1
+            },
+            {
+              "label": "@string/param_contrast_highlight",
+              "value": "+1",
+              "span": 1
+            },
+            {
+              "label": "@string/param_contrast_shadow",
+              "value": "-2",
+              "span": 1
+            },
+            {
+              "label": "@string/param_sharpness",
+              "value": "+1",
+              "span": 1
+            },
+            {
+              "label": "@string/param_brightness",
+              "value": "+1",
+              "span": 1
+            },
+            {
+              "label": "@string/param_clarity",
+              "value": "0",
+              "span": 1
+            },
+            {
+              "label": "@string/param_grain",
+              "value": "0",
+              "span": 1
+            },
+            {
+              "label": "@string/param_grain_size",
+              "value": "0",
+              "span": 2
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "Auto"
+      ],
+      "description": {
+        "title": "Shooting Tips",
+        "content": "【环境建议】日间户外，光线充足的场景\n【场景推荐】街拍、建筑、人文、日常记录\n【拍摄要点】模拟理光GR负片风格，色彩自然略带胶片感，适合追求真实质感的拍摄场景"
+      }
+    }
+  ]
+}
